@@ -1,8 +1,8 @@
 {
-  "name": "@project/ui-kit",
+  "name": "@TkachevDmitrii/ui-kit",
   "version": "0.1.0",
-  "description": "Project ui-kit",
-  "author": "project",
+  "description": "my ui-kit",
+  "author": "Tkachev Dmitrii",
   "main": "src/index.ts",
   "scripts": {
     "start": "cross-env NODE_ENV=development S_MAPS=fast start-storybook -s ./src/assets --quiet -p 3000",
