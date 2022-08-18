@@ -1,0 +1,34 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "CommonJS",
+    "target": "ESNext",
+    "downlevelIteration": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "checkJs": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "lib": ["es2020", "es2019", "es2018", "DOM", "DOM.Iterable", "esnext"],
+    "declaration": false,
+    "noErrorTruncation": true
+  },
+
+  "ts-node": {
+    "transpileOnly": true,
+    "compilerOptions": {
+      "module": "CommonJS",
+    },
+  },
+}

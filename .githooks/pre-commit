@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo '111111'
+npx lint-staged

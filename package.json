@@ -1,0 +1,52 @@
+{
+  "name": "@project/ui-kit",
+  "version": "0.1.0",
+  "description": "Project ui-kit",
+  "author": "project",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development S_MAPS=fast start-storybook -s ./src/assets --quiet -p 3000",
+    "start17": "cross-env NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=development S_MAPS=fast start-storybook -s ./src/assets --quiet -p 3000",
+    "build:storybook": "cross-env NODE_ENV=production build-storybook -s ./src/assets -c .storybook -o public --quiet",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
+    "activate-git-hooks": "git config core.hookspath \".githooks\""
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.5.0",
+    "@types/react-input-mask": "^3.0.1",
+    "react-highlight-words": "^0.17.0",
+    "react-input-mask": "^3.0.0-alpha.2",
+    "react-spinners-kit": "^1.9.1",
+    "react-spring-bottom-sheet": "^3.4.0",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@storybook/addon-backgrounds": "^6.4.14",
+    "@storybook/addon-knobs": "^6.4.0",
+    "@storybook/builder-webpack5": "^6.4.14",
+    "@storybook/manager-webpack5": "^6.5.0-alpha.23",
+    "@storybook/react": "^6.4.14",
+    "@types/ramda": "^0.27.64",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "@types/react-highlight-words": "^0.16.4",
+    "@types/styled-components": "^5.1.21",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "antd": "^4.18.5",
+    "babel-plugin-import": "^1.13.3",
+    "cross-env": "^7.0.3",
+    "dayjs": "^1.10.7",
+    "eslint": "^8.7.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "lint-staged": "^12.3.2",
+    "ramda": "^0.28.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.5.5",
+    "webpack": "5.67.0"
+  }
+}

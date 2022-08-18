@@ -1,0 +1,15 @@
+node_modules
+public
+dist
+
+# Logs
+*.log
+*.log-*
+*.log_*
+*.log.*
+
+# Editor
+.idea
+
+# mac os
+.DS_Store
